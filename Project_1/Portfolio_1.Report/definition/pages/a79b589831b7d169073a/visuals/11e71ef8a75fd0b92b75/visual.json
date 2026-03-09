@@ -1,0 +1,304 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "11e71ef8a75fd0b92b75",
+  "position": {
+    "x": 648.75,
+    "y": 171.25,
+    "z": 1000,
+    "height": 466.25,
+    "width": 617.5,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "keyDriversVisual",
+    "query": {
+      "queryState": {
+        "ExplainBy": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "Age"
+                }
+              },
+              "queryRef": "Sum(marketmindz_research_data.Age)",
+              "nativeQueryRef": "Age"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": " Income "
+                }
+              },
+              "queryRef": "Sum(marketmindz_research_data. Income )",
+              "nativeQueryRef": " Income "
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "Country"
+                }
+              },
+              "queryRef": "marketmindz_research_data.Country",
+              "nativeQueryRef": "Country"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "Education"
+                }
+              },
+              "queryRef": "marketmindz_research_data.Education",
+              "nativeQueryRef": "Education"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "Marital_Status"
+                }
+              },
+              "queryRef": "marketmindz_research_data.Marital_Status",
+              "nativeQueryRef": "Marital Status",
+              "displayName": "Marital Status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "Kidhome"
+                }
+              },
+              "queryRef": "Sum(marketmindz_research_data.Kidhome)",
+              "nativeQueryRef": "Num of Kids at Home",
+              "displayName": "Num of Kids at Home"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "Teenhome"
+                }
+              },
+              "queryRef": "Sum(marketmindz_research_data.Teenhome)",
+              "nativeQueryRef": "Num of Teens at home",
+              "displayName": "Num of Teens at home"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "marketmindz_research_data"
+                    }
+                  },
+                  "Property": "NumWebVisitsMonth"
+                }
+              },
+              "queryRef": "Sum(marketmindz_research_data.NumWebVisitsMonth)",
+              "nativeQueryRef": " Num of Web Visits Last Month",
+              "displayName": " Num of Web Visits Last Month"
+            }
+          ]
+        },
+        "Target": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Products"
+                    }
+                  },
+                  "Property": "Total Sales"
+                }
+              },
+              "queryRef": "Products.Total Sales",
+              "nativeQueryRef": "Total Sales"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "marketmindz_research_data"
+                  }
+                },
+                "Property": "Age"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "keyDrivers": [
+        {
+          "properties": {
+            "targetValue": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Campaign 3'''"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "keyInfluencersVisual": [
+        {
+          "properties": {
+            "primaryColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 4,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "primaryFontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.2
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "keyDriversDrillVisual": [
+        {
+          "properties": {
+            "defaultColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.3
+                    }
+                  }
+                }
+              }
+            },
+            "referenceLineColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": -0.6
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "03b39ad004cf797acb62",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Campaign"
+              }
+            },
+            "Property": "Accepted_IND"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "c",
+              "Entity": "Campaign",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "c"
+                        }
+                      },
+                      "Property": "Accepted_IND"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "1L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

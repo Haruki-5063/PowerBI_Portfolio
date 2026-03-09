@@ -1,0 +1,51 @@
+table Products
+	lineageTag: 1f6b0098-408c-4fdd-8e61-49b82f76d4b8
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 7e4127f4-c22c-4cad-99fc-39f2b656baa6
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Products
+		dataType: string
+		lineageTag: a0fee60b-3b38-4fe8-a242-ce9c4b01f7a1
+		summarizeBy: none
+		sourceColumn: Products
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Total Sales'
+		dataType: int64
+		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
+		lineageTag: b9c41e6e-ca40-4241-916c-8e2e7fcc30b9
+		summarizeBy: sum
+		sourceColumn: Total Sales
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Products = m
+		mode: import
+		source =
+				let
+				    Source = marketmindz_research_data,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"ID", "Amount _Wine_Products", "Amount_Fruits_Products", "Amount_Mea_tProducts", "Amount_Fish_Products", "Amount_Sweet_Products", "AMount_Baked_Products"}),
+				    #"Unpivoted Columns" = Table.UnpivotOtherColumns(#"Removed Other Columns", {"ID"}, "Attribute", "Value"),
+				    #"Replaced Value" = Table.ReplaceValue(#"Unpivoted Columns","Amount _","",Replacer.ReplaceText,{"Attribute"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","Amount_","",Replacer.ReplaceText,{"Attribute"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","AMount_","",Replacer.ReplaceText,{"Attribute"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","Products","",Replacer.ReplaceText,{"Attribute"}),
+				    #"Replaced Value4" = Table.ReplaceValue(#"Replaced Value3","_","",Replacer.ReplaceText,{"Attribute"}),
+				    #"Replaced Value5" = Table.ReplaceValue(#"Replaced Value4","Baked","Baked_Good",Replacer.ReplaceText,{"Attribute"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Replaced Value5",{{"Value", "Total Sales"}, {"Attribute", "Products"}}),
+				    #"Replaced Value6" = Table.ReplaceValue(#"Renamed Columns","Baked_Good","Baked_Goods",Replacer.ReplaceText,{"Products"})
+				in
+				    #"Replaced Value6"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

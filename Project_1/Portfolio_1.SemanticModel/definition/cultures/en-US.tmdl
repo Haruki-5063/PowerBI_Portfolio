@@ -1,0 +1,5496 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "marketmindz_research_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marketmindz research data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "marketmindz_research_data": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "marketmindz research information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "marketmindz research fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "marketmindz research info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "marketmindz research statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "marketmindz research document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "marketmindz research figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "marketmindz research record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "marketmindz_research_data.age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.education": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Education"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tutelage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "teaching": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "schooling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tutoring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "learning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "training": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "culture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.marital_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Marital_Status"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marital status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Marital_Status": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "marital category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "marital condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "marital class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": " Income "
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "income": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.kidhome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Kidhome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "kidhome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Kids at Home": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Num of Kids at Home": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.teenhome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Teenhome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "teenhome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Teen at Home": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Num of Teens at home": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.dt_customer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Dt_Customer"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt customer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dt_Customer": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "customer": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dt consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dt user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dt buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dt patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dt purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "dt shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "marketmindz_research_data.dt_customer.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "VariationSource": "Dt_Customer",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt customer date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "marketmindz_research_data.dt_customer.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "VariationSource": "Dt_Customer",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt customer year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt customer yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "customer yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "dt client year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt consumer year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt user year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt buyer year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt patron year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt purchaser year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt shopper year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "marketmindz_research_data.dt_customer.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "VariationSource": "Dt_Customer",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt customer quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt customer qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "customer qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "dt client quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt consumer quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt user quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt buyer quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt patron quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt purchaser quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt shopper quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "marketmindz_research_data.dt_customer.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "VariationSource": "Dt_Customer",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt customer month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt customer mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "customer mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "dt client month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt consumer month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt user month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt buyer month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt patron month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt purchaser month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt shopper month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "marketmindz_research_data.dt_customer.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "VariationSource": "Dt_Customer",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dt customer day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "dt client day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt consumer day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt user day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt buyer day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt patron day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt purchaser day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "dt shopper day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "client day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "marketmindz_research_data.recency": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Recency"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "recency": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.amount__Wine_Product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Amount _Wine_Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount _Wine_Product": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.amount_fruits_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Amount_Fruits_Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount fruits product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "amount fruit product": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Amount_Fruits_Products": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fruits product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fruit product": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "amount fruit artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fruit artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "amount fruit item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount fruit merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount fruit produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "fruit item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "fruit merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "fruit produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.amount_mea_t_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Amount_Mea_tProducts"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount mea t product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Amount_Mea_tProducts": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "t product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mea t product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "amount mea t artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "mea t artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "t artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "amount mea t item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "amount mea t merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "amount mea t produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "mea t item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "mea t merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "mea t produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "t item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.amount_fish_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Amount_Fish_Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount fish product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Amount_Fish_Products": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fish product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "amount fish artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "fish artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "amount fish item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount fish merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount fish produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "fish item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "fish merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "fish produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.amount_sweet_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Amount_Sweet_Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount sweet product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Amount_Sweet_Products": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "sweet product": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "amount sweet artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "sweet artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "amount sweet item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount sweet merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "amount sweet produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sweet item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sweet merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sweet produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.A_mount_baked_product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "AMount_Baked_Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "A mount baked product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AMount_Baked_Products": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "a mount baked artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "a mount baked item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "a mount baked merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "a mount baked produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "a plinth baked product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "a base baked product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "a stand baked product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "a pedestal baked product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "a post baked product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "a support baked product": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.purchase__deal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Purchase - Deal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "purchase - deal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "purchase deal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "deal": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "purchase - transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - agreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - pact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - treaty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase agreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase pact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase treaty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.purchase__web": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Purchase - Web"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "purchase - web": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "purchase web": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "web": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "purchase - mesh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - net": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - netting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - network": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - trap": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - snare": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - tissue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - grid": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase mesh": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "purchase net": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.purchase__catalog": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Purchase - Catalog"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "purchase - catalog": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "purchase catalog": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "catalog": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "purchase - collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - litany": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - succession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase litany": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase series": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase succession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase - set": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - list": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.purchase__store": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Purchase - Store"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "purchase - store": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "purchase store": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "store": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "purchase - accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase - collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "purchase accumulation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase collection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "purchase - stock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - supply": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - stockpile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - hoard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "purchase - pile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.num_web_visits_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "NumWebVisitsMonth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num web visits month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "num web visit month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "NumWebVisitsMonth": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "num web visit mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "number web visit month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "Num of Web Visits Last Month": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.acceoted__campaign_3": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Acceoted - Campaign 3"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "acceoted - campaign 3": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "acceoted campaign 3": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.accepted__campaign_4": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Accepted - Campaign 4"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accepted - campaign 4": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accepted campaign 4": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "campaign 4": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.accepted__campaign_5": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Accepted - Campaign 5"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accepted - campaign 5": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accepted campaign 5": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "campaign 5": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.accepted__campaign_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Accepted - Campaign 1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accepted - campaign 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accepted campaign 1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "campaign 1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.accepted__campaign_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Accepted - Campaign 2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accepted - campaign 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accepted campaign 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "campaign 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.accepted__campaign_6": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Accepted - Campaign 6"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accepted - campaign 6": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "accepted campaign 6": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "campaign 6": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.complain": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Complain"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "complain": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dictionary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data_dictionary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marketmindz research data dictionary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "marketmindz_research_data_dictionary": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "marketmindz research information dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "marketmindz research fact dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "marketmindz research info dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "marketmindz research statistic dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "marketmindz research document dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "marketmindz research figure dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "marketmindz research record dictionary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "marketmindz research data lexicon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "marketmindz research data glossary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "marketmindz research data phrasebook": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dictionary.column_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data_dictionary",
+			          "ConceptualProperty": "Column1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dictionary.column_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data_dictionary",
+			          "ConceptualProperty": "Column2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Column2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "campaign": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Campaign"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campaign": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "movement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crusade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "drive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fight": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "battle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "war": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "campaign.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Campaign",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "campaign.campaign": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Campaign",
+			          "ConceptualProperty": "Campaign"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "campaign": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "movement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crusade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "drive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fight": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "battle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "war": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Accepted Campaign": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "campaign.accepted_IND": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Campaign",
+			          "ConceptualProperty": "Accepted_IND"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accepted IND": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Accepted_IND": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "IND": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "product.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Products",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "product.product": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Products",
+			          "ConceptualProperty": "Products"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "product": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "artifact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "merchandise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "produce": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "product.total_sale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Products",
+			          "ConceptualProperty": "Total Sales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total sale": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sale": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall sale": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "auction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "total transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "total deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total trade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total vending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "total retailing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "platform": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Platform"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "platform": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "podium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "proposal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "manifesto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "platform.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Platform",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "platform.platform": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Platform",
+			          "ConceptualProperty": "Platform"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "platform": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "podium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "proposal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "manifesto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "platform.qty": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Platform",
+			          "ConceptualProperty": "QTY"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qty": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data.age_goup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "marketmindz_research_data",
+			          "ConceptualProperty": "Age Goup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age goup": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "platform_has_qty": {
+			      "Binding": {
+			        "ConceptualEntity": "Platform"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "platform": {
+			          "Target": {
+			            "Entity": "platform"
+			          }
+			        },
+			        "platform.qty": {
+			          "Target": {
+			            "Entity": "platform.qty"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "platform"
+			            },
+			            "Object": {
+			              "Role": "platform.qty"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "platforms_have_qties"
+			        }
+			      ]
+			    },
+			    "platform_has_platform": {
+			      "Binding": {
+			        "ConceptualEntity": "Platform"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "platform": {
+			          "Target": {
+			            "Entity": "platform"
+			          }
+			        },
+			        "platform.platform": {
+			          "Target": {
+			            "Entity": "platform.platform"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "platform"
+			            },
+			            "Object": {
+			              "Role": "platform.platform"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "platforms_have_platforms"
+			        }
+			      ]
+			    },
+			    "product_has_total_sale": {
+			      "Binding": {
+			        "ConceptualEntity": "Products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "product": {
+			          "Target": {
+			            "Entity": "product"
+			          }
+			        },
+			        "product.total_sale": {
+			          "Target": {
+			            "Entity": "product.total_sale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "product"
+			            },
+			            "Object": {
+			              "Role": "product.total_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "products_have_total_sales"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "product"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "product.total_sale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_sale_indicates_how_expensive_products_are"
+			        }
+			      ]
+			    },
+			    "product_has_product": {
+			      "Binding": {
+			        "ConceptualEntity": "Products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "product": {
+			          "Target": {
+			            "Entity": "product"
+			          }
+			        },
+			        "product.product": {
+			          "Target": {
+			            "Entity": "product.product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "product"
+			            },
+			            "Object": {
+			              "Role": "product.product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "products_have_products"
+			        }
+			      ]
+			    },
+			    "campaign_has_accepted_IND": {
+			      "Binding": {
+			        "ConceptualEntity": "Campaign"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campaign": {
+			          "Target": {
+			            "Entity": "campaign"
+			          }
+			        },
+			        "campaign.accepted_IND": {
+			          "Target": {
+			            "Entity": "campaign.accepted_IND"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campaign"
+			            },
+			            "Object": {
+			              "Role": "campaign.accepted_IND"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campaigns_have_accepted_INDs"
+			        }
+			      ]
+			    },
+			    "campaign_has_campaign": {
+			      "Binding": {
+			        "ConceptualEntity": "Campaign"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campaign": {
+			          "Target": {
+			            "Entity": "campaign"
+			          }
+			        },
+			        "campaign.campaign": {
+			          "Target": {
+			            "Entity": "campaign.campaign"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campaign"
+			            },
+			            "Object": {
+			              "Role": "campaign.campaign"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campaigns_have_campaigns"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dictionary_has_column_2": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data_dictionary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data_dictionary": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data_dictionary"
+			          }
+			        },
+			        "marketmindz_research_data_dictionary.column_2": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data_dictionary.column_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data_dictionary"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data_dictionary.column_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_dictionaries_have_column_2"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dictionary_has_column_1": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data_dictionary"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data_dictionary": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data_dictionary"
+			          }
+			        },
+			        "marketmindz_research_data_dictionary.column_1": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data_dictionary.column_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data_dictionary"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data_dictionary.column_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_dictionaries_have_column_1"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.country": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_countries"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_complain": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.complain": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.complain"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.complain"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_complain"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_accepted__campaign_6": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.accepted__campaign_6": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.accepted__campaign_6"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.accepted__campaign_6"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_accepted__campaign_6"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_accepted__campaign_2": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.accepted__campaign_2": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.accepted__campaign_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.accepted__campaign_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_accepted__campaign_2"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_accepted__campaign_1": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.accepted__campaign_1": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.accepted__campaign_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.accepted__campaign_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_accepted__campaign_1"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_accepted__campaign_5": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.accepted__campaign_5": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.accepted__campaign_5"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.accepted__campaign_5"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_accepted__campaign_5"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_accepted__campaign_4": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.accepted__campaign_4": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.accepted__campaign_4"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.accepted__campaign_4"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_accepted__campaign_4"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_acceoted__campaign_3": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.acceoted__campaign_3": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.acceoted__campaign_3"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.acceoted__campaign_3"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_acceoted__campaign_3"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_num_web_visits_month": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.num_web_visits_month": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.num_web_visits_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.num_web_visits_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_num_web_visits_months"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_purchase__store": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.purchase__store": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.purchase__store"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.purchase__store"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_purchase__stores"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_purchase__catalog": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.purchase__catalog": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.purchase__catalog"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.purchase__catalog"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_purchase__catalogs"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_purchase__web": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.purchase__web": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.purchase__web"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.purchase__web"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_purchase__webs"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_purchase__deal": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.purchase__deal": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.purchase__deal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.purchase__deal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_purchase__deals"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_A_mount_baked_product": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.A_mount_baked_product": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.A_mount_baked_product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.A_mount_baked_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_A_mount_baked_product"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.A_mount_baked_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "A_mount_baked_product_indicates_how_expensive_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_amount_sweet_product": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.amount_sweet_product": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.amount_sweet_product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.amount_sweet_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_amount_sweet_products"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.amount_sweet_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amount_sweet_product_indicates_how_expensive_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_amount_fish_product": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.amount_fish_product": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.amount_fish_product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.amount_fish_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_amount_fish_products"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.amount_fish_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amount_fish_product_indicates_how_expensive_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_amount_mea_t_product": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.amount_mea_t_product": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.amount_mea_t_product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.amount_mea_t_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_amount_mea_t_products"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.amount_mea_t_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amount_mea_t_product_indicates_how_expensive_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_amount_fruits_product": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.amount_fruits_product": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.amount_fruits_product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.amount_fruits_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_amount_fruits_products"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.amount_fruits_product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amount_fruits_product_indicates_how_expensive_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_amount__Wine_Product": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.amount__Wine_Product": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.amount__Wine_Product"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.amount__Wine_Product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_amount__Wine_Products"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.amount__Wine_Product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amount__Wine_Product_indicates_how_expensive_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_recency": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.recency": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.recency"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.recency"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_recencies"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_dt_customer": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.dt_customer": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.dt_customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_dt_customers"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_teenhome": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.teenhome": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.teenhome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.teenhome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_teenhomes"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_kidhome": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.kidhome": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.kidhome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.kidhome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_kidhomes"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_income": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.income": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.income"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.income"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_incomes"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_marital_status": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.marital_status": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.marital_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.marital_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_marital_statuses"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_education": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.education": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.education"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.education"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_educations"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_age": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.age": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "marketmindz_research_data.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "age_indicates_how_old_marketmindz_research_data_are"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.ID": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Name": {
+			              "Role": "marketmindz_research_data.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ID_are_names_IDs_of_marketmindz_research_data"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.country": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "marketmindz_research_data.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "marketmindz_research_data.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_are_in_countries"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_has_age_goup": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        },
+			        "marketmindz_research_data.age_goup": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.age_goup"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.age_goup"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_age_goups"
+			        }
+			      ]
+			    },
+			    "campaign_has_marketmindz_research_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Campaign"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "campaign": {
+			          "Target": {
+			            "Entity": "campaign"
+			          }
+			        },
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "campaign"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "campaigns_have_marketmindz_research_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "campaign"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_campaigns"
+			        }
+			      ]
+			    },
+			    "product_has_marketmindz_research_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Products"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "product": {
+			          "Target": {
+			            "Entity": "product"
+			          }
+			        },
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "product"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "products_have_marketmindz_research_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "product"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_products"
+			        }
+			      ]
+			    },
+			    "platform_has_marketmindz_research_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Platform"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "platform": {
+			          "Target": {
+			            "Entity": "platform"
+			          }
+			        },
+			        "marketmindz_research_data": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "platform"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "platforms_have_marketmindz_research_data"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data"
+			            },
+			            "Object": {
+			              "Role": "platform"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "marketmindz_research_data_have_platforms"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dt_customer_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data.dt_customer": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer"
+			          }
+			        },
+			        "marketmindz_research_data.dt_customer.date_hierarchy": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data.dt_customer"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.dt_customer.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_customers_have_dt_customer_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dt_customer_date_hierarchy_has_marketmindz_research_data_dt_customer_year": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data.dt_customer.date_hierarchy": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.date_hierarchy"
+			          }
+			        },
+			        "marketmindz_research_data.dt_customer.year": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data.dt_customer.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.dt_customer.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_customer_date_hierarchies_have_dt_customer_years"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dt_customer_date_hierarchy_has_marketmindz_research_data_dt_customer_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data.dt_customer.date_hierarchy": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.date_hierarchy"
+			          }
+			        },
+			        "marketmindz_research_data.dt_customer.quarter": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data.dt_customer.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.dt_customer.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_customer_date_hierarchies_have_dt_customer_quarters"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dt_customer_date_hierarchy_has_marketmindz_research_data_dt_customer_month": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data.dt_customer.date_hierarchy": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.date_hierarchy"
+			          }
+			        },
+			        "marketmindz_research_data.dt_customer.month": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data.dt_customer.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.dt_customer.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_customer_date_hierarchies_have_dt_customer_months"
+			        }
+			      ]
+			    },
+			    "marketmindz_research_data_dt_customer_date_hierarchy_has_marketmindz_research_data_dt_customer_day": {
+			      "Binding": {
+			        "ConceptualEntity": "marketmindz_research_data"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "marketmindz_research_data.dt_customer.date_hierarchy": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.date_hierarchy"
+			          }
+			        },
+			        "marketmindz_research_data.dt_customer.day": {
+			          "Target": {
+			            "Entity": "marketmindz_research_data.dt_customer.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "marketmindz_research_data.dt_customer.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "marketmindz_research_data.dt_customer.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dt_customer_date_hierarchies_have_dt_customer_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

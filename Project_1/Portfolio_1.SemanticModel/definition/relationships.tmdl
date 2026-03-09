@@ -1,0 +1,18 @@
+relationship 25658b30-9470-4e77-a6c5-2224240c7b78
+	joinOnDateBehavior: datePartOnly
+	fromColumn: marketmindz_research_data.Dt_Customer
+	toColumn: LocalDateTable_a2e795a0-6a43-4071-bca7-5c05d6634ac8.Date
+
+relationship 9e270439-520f-6ae5-c392-23a0988f10a2
+	crossFilteringBehavior: bothDirections
+	fromColumn: Campaign.ID
+	toColumn: marketmindz_research_data.ID
+
+relationship 4d0e6634-dd55-14d4-4a96-e034d070a2c7
+	fromColumn: Products.ID
+	toColumn: marketmindz_research_data.ID
+
+relationship a84de337-c08f-da18-0564-8f85bc422d0c
+	fromColumn: Platform.ID
+	toColumn: marketmindz_research_data.ID
+

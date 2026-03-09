@@ -1,0 +1,46 @@
+table Campaign
+	lineageTag: fe7e3756-12e9-4ea9-9faf-51ff37c35ab6
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 2d5b914a-f52c-4aba-b9e0-2ab03b16e578
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Campaign
+		dataType: string
+		lineageTag: 145f3be0-a3a4-42f0-a445-3ce8cdb1a2d6
+		summarizeBy: none
+		sourceColumn: Campaign
+
+		annotation SummarizationSetBy = Automatic
+
+	column Accepted_IND
+		dataType: int64
+		formatString: 0
+		lineageTag: 6bad4631-df7c-4fc7-acb1-d9637b71359b
+		summarizeBy: sum
+		sourceColumn: Accepted_IND
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Campaign = m
+		mode: import
+		source =
+				let
+				    Source = marketmindz_research_data,
+				    #"Removed Columns" = Table.RemoveColumns(Source,{"Age", "Education", "Marital_Status", " Income ", "Kidhome", "Teenhome", "Dt_Customer", "Recency", "Amount _Wine_Products", "Amount_Fruits_Products", "Amount_Mea_tProducts", "Amount_Fish_Products", "Amount_Sweet_Products", "AMount_Baked_Products", "Purchase - Deal", "Purchase - Web", "Purchase - Catalog", "Purchase - Store", "NumWebVisitsMonth", "Complain", "Country"}),
+				    #"Unpivoted Columns" = Table.UnpivotOtherColumns(#"Removed Columns", {"ID"}, "Attribute", "Value"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Unpivoted Columns",{{"Attribute", "Campaign"}, {"Value", "Accepted_IND"}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Renamed Columns","Acceoted - ","",Replacer.ReplaceText,{"Campaign"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","Accepted - ","",Replacer.ReplaceText,{"Campaign"})
+				in
+				    #"Replaced Value1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

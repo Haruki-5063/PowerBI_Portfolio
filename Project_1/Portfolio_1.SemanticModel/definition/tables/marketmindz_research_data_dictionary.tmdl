@@ -1,0 +1,32 @@
+table marketmindz_research_data_dictionary
+	lineageTag: af4646a1-90ed-4396-b96f-41e4679a8738
+
+	column Column1
+		dataType: string
+		lineageTag: c6029816-4ab8-4f4d-92c4-99b8aa3315bd
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column2
+		dataType: string
+		lineageTag: ec444e6c-f81b-47a8-b5e0-e9c9f1debc69
+		summarizeBy: none
+		sourceColumn: Column2
+
+		annotation SummarizationSetBy = Automatic
+
+	partition marketmindz_research_data_dictionary = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Power BI_Portfolio\marketmindz_research_data_dictionary.csv"),[Delimiter=",", Columns=2, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}, {"Column2", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

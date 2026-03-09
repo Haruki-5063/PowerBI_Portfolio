@@ -1,0 +1,46 @@
+table Platform
+	lineageTag: 07add8bc-a60e-4364-991a-30b5a64ae76e
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 59705709-5732-4170-87c3-f556a010c083
+		summarizeBy: none
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Platform
+		dataType: string
+		lineageTag: ccdd6a43-028e-4494-a7fe-e1c6fe31c03a
+		summarizeBy: none
+		sourceColumn: Platform
+
+		annotation SummarizationSetBy = Automatic
+
+	column QTY
+		dataType: int64
+		formatString: 0
+		lineageTag: bfa0dc56-d8da-4afc-8a37-1971024ae86a
+		summarizeBy: sum
+		sourceColumn: QTY
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Platform = m
+		mode: import
+		source =
+				let
+				    Source = marketmindz_research_data,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"Purchase - Store", "Purchase - Catalog", "Purchase - Web", "Purchase - Deal", "ID"}),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Removed Other Columns",{"ID", "Purchase - Store", "Purchase - Catalog", "Purchase - Web", "Purchase - Deal"}),
+				    #"Unpivoted Columns" = Table.UnpivotOtherColumns(#"Reordered Columns", {"ID"}, "Attribute", "Value"),
+				    #"Renamed Columns" = Table.RenameColumns(#"Unpivoted Columns",{{"Value", "QTY"}, {"Attribute", "Platform"}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Renamed Columns","Purchase - ","",Replacer.ReplaceText,{"Platform"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

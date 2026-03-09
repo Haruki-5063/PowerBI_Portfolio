@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "marketmindz_research_data",
+          "nodeLineageTag": "566b6ba6-9a74-4334-9944-19f5ca66ad47",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 489
+          },
+          "nodeIndex": "marketmindz_research_data_dictionary",
+          "nodeLineageTag": "af4646a1-90ed-4396-b96f-41e4679a8738",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 306,
+            "y": 293
+          },
+          "nodeIndex": "Campaign",
+          "nodeLineageTag": "fe7e3756-12e9-4ea9-9faf-51ff37c35ab6",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 390,
+            "y": 26.5
+          },
+          "nodeIndex": "Products",
+          "nodeLineageTag": "1f6b0098-408c-4fdd-8e61-49b82f76d4b8",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 614.42307955647379,
+            "y": 199.81746067972654
+          },
+          "nodeIndex": "Platform",
+          "nodeLineageTag": "07add8bc-a60e-4364-991a-30b5a64ae76e",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 79.553182037699955,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}
