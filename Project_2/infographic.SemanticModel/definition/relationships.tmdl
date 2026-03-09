@@ -1,0 +1,28 @@
+relationship 5fdd5d08-abd2-4ab3-9fbf-2c3d061974ce
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Kraken_Koffee_Facts.transaction_time
+	toColumn: LocalDateTable_95b2723e-245b-439a-bc9f-b57718a5dc13.Date
+
+relationship a84fc5de-02f6-4f4a-a89b-eedcf1040808
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Date.transaction_date
+	toColumn: LocalDateTable_fd4becab-691a-4674-9013-71d94d2af2c2.Date
+
+relationship 30736c60-f5c4-10d2-58d6-27aefe0bd6c7
+	fromColumn: Kraken_Koffee_Facts.product_id
+	toColumn: Product_Dim.product_id
+
+relationship 53e7c04c-c7be-5f33-a076-de2207cad8b4
+	fromColumn: Kraken_Koffee_Facts.transaction_date
+	toColumn: Date.transaction_date
+
+relationship 18d17e8e-53f8-aecb-2fde-c3917a9a7387
+	fromColumn: Kraken_Koffee_Facts.store_id
+	toColumn: Store_Dim.store_id
+
+relationship da375997-3dee-0132-4d10-91b338463458
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: 'Forecast Data Table'.Date
+	toColumn: Date.transaction_date
+

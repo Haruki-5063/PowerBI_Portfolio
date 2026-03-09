@@ -1,0 +1,34 @@
+table '_03_Formating_Tex_Measure (2)'
+	lineageTag: dc4863b2-c204-44cf-a8e9-d7323c9ee180
+
+	measure 'Max AOS Marker Label' = " Max Order Size: " & FORMAT([Max AOS Marker], "$###,##0.00")
+		lineageTag: 9fcc2e7c-48ee-4752-adc6-8b6086c601ec
+
+	measure 'Top 10 Product Type Highlight' =
+			IF(
+			                                    [Product Category Rank] <= 10, "#EFB251",
+			                                    "#00958C")
+		lineageTag: 4c453cb0-4a21-4c62-aded-e0e63b3caf47
+
+	column Column1
+		dataType: string
+		lineageTag: e4058a7a-641e-4cee-a1b8-b634a5dcc111
+		summarizeBy: none
+		sourceColumn: Column1
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition '_03_Formating_Tex_Measure (2)' = m
+		mode: import
+		source =
+				let
+				    Source = _02_Nested_Measure
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

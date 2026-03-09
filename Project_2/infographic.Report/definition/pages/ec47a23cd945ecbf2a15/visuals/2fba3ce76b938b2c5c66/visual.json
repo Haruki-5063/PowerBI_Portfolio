@@ -1,0 +1,109 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "2fba3ce76b938b2c5c66",
+  "position": {
+    "x": 9.613733905579398,
+    "y": 0,
+    "z": 0,
+    "height": 719.656652360515,
+    "width": 778.71244635193136,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Forecast Data Table"
+                    }
+                  },
+                  "Property": "Date"
+                }
+              },
+              "queryRef": "Forecast Data Table.Date",
+              "nativeQueryRef": "Date"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_01_Core_Measure"
+                    }
+                  },
+                  "Property": "Total Sales"
+                }
+              },
+              "queryRef": "_01_Core_Measure.Total Sales",
+              "nativeQueryRef": "Total Sales"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_04_Forcast"
+                    }
+                  },
+                  "Property": "Average Daily Sales"
+                }
+              },
+              "queryRef": "_04_Forcast.Average Daily Sales",
+              "nativeQueryRef": "Average Daily Sales"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_04_Forcast"
+                    }
+                  },
+                  "Property": "Average Daily Sales 2"
+                }
+              },
+              "queryRef": "_04_Forcast.Average Daily Sales 2",
+              "nativeQueryRef": "Average Daily Sales 2"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_04_Forcast"
+                    }
+                  },
+                  "Property": "Average Daily Sales Switch"
+                }
+              },
+              "queryRef": "_04_Forcast.Average Daily Sales Switch",
+              "nativeQueryRef": "Average Daily Sales Switch"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_04_Forcast"
+                    }
+                  },
+                  "Property": "Forecast"
+                }
+              },
+              "queryRef": "_04_Forcast.Forecast",
+              "nativeQueryRef": "Forecast"
+            }
+          ],
+          "showAll": true
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

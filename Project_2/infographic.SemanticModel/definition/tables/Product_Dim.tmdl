@@ -1,0 +1,52 @@
+table Product_Dim
+	lineageTag: ca693bba-557c-4bfb-8b59-0b81680841df
+
+	column product_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 1705af98-6ede-445b-994f-8ee6242abe78
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_category
+		dataType: string
+		lineageTag: 507dabc2-7e76-47d5-858d-16cc3d705813
+		summarizeBy: none
+		sourceColumn: product_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_type
+		dataType: string
+		lineageTag: ccdf1cf5-ae9e-42fc-bb38-1b732dbecf9d
+		summarizeBy: none
+		sourceColumn: product_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_detail
+		dataType: string
+		lineageTag: fb5cad3c-fbe8-41b7-90b3-94e2be17da6f
+		summarizeBy: none
+		sourceColumn: product_detail
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Product_Dim = m
+		mode: import
+		source =
+				let
+				    Source = #"Kraken_Koffee_Sales - Copy",
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"product_id", "product_category", "product_type", "product_detail"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Removed Other Columns", each true),
+				    #"Removed Duplicates" = Table.Distinct(#"Filtered Rows"),
+				    #"Sorted Rows" = Table.Sort(#"Removed Duplicates",{{"product_id", Order.Ascending}})
+				in
+				    #"Sorted Rows"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

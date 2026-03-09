@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "infographic"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1b321923-0e4f-489e-8d20-9291e044552f"
+  }
+}

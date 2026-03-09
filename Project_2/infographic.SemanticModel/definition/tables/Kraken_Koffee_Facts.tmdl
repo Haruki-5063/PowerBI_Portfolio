@@ -1,0 +1,118 @@
+table Kraken_Koffee_Facts
+	lineageTag: 2f61589c-7ff0-4faf-849e-92e7ec22d20c
+
+	column transaction_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 1dcf7853-0ac2-402c-bf03-a043007cd26a
+		summarizeBy: sum
+		sourceColumn: transaction_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e2908501-d4f9-4d92-b1ff-a4b2810abfa9
+		summarizeBy: none
+		sourceColumn: transaction_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column transaction_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 35902b94-683c-4e88-84fb-156d0b016f0c
+		summarizeBy: none
+		sourceColumn: transaction_time
+
+		variation Variation
+			isDefault
+			relationship: 5fdd5d08-abd2-4ab3-9fbf-2c3d061974ce
+			defaultHierarchy: LocalDateTable_95b2723e-245b-439a-bc9f-b57718a5dc13.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_qty
+		dataType: int64
+		formatString: 0
+		lineageTag: fa5aa057-377a-46ed-b343-36f1f3b1b201
+		summarizeBy: sum
+		sourceColumn: transaction_qty
+
+		annotation SummarizationSetBy = Automatic
+
+	column store_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 031288b9-e092-4d09-a39f-14d6290782a9
+		summarizeBy: none
+		sourceColumn: store_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 5c779132-409d-40e0-a4ee-0fab91732933
+		summarizeBy: none
+		sourceColumn: product_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column unit_price
+		dataType: double
+		lineageTag: 5e05a0db-384f-453e-b4c8-209f6fe84919
+		summarizeBy: sum
+		sourceColumn: unit_price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Total Sales'
+		dataType: double
+		lineageTag: 7001a968-5592-46c7-8de5-3f6bbeb92dcf
+		summarizeBy: sum
+		sourceColumn: Total Sales
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Hour
+		dataType: int64
+		formatString: 0
+		lineageTag: c6713c7a-7aec-498d-8204-1354cf43f6da
+		summarizeBy: sum
+		sourceColumn: Hour
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Time of Day' =
+			IF( Kraken_Koffee_Facts[Hour] < 12, "Morning",
+			                IF(Kraken_Koffee_Facts[Hour] >12, "Afternoon",
+			                "Evening"))
+		lineageTag: 0078fec0-f265-4436-9af4-0f20aa4cfea8
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Kraken_Koffee_Facts = m
+		mode: import
+		source =
+				let
+				    Source = #"Kraken_Koffee_Sales - Copy",
+				    #"Removed Columns" = Table.RemoveColumns(Source,{"store_location", "product_category", "product_type", "product_detail"}),
+				    #"Inserted Multiplication" = Table.AddColumn(#"Removed Columns", "Multiplication", each [unit_price] * [transaction_qty], type number),
+				    #"Renamed Columns" = Table.RenameColumns(#"Inserted Multiplication",{{"Multiplication", "Total Sales"}}),
+				    #"Inserted Hour" = Table.AddColumn(#"Renamed Columns", "Hour", each Time.Hour([transaction_time]), Int64.Type)
+				in
+				    #"Inserted Hour"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

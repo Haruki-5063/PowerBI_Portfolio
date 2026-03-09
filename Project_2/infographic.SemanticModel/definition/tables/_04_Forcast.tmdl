@@ -1,0 +1,57 @@
+table _04_Forcast
+	lineageTag: 41dba13a-6dac-463a-8856-980608b3e97c
+
+	measure 'Average Daily Sales' = AVERAGEX(VALUES('Forecast Data Table'[Date]), [Total Sales])
+		formatString: 0
+		lineageTag: 831a17b0-e0f3-4280-bf7f-4e48ed379fe5
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'Average Daily Sales 2' = CALCULATE([Average Daily Sales], ALLSELECTED('Forecast Data Table'))
+		lineageTag: d5468fb4-414e-4690-859e-92d49f67c0b4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Average Daily Sales Switch' =
+			SWITCH(TRUE(),
+			                            [Total Sales]<>BLANK(), [Total Sales],
+			                            [Average Daily Sales 2])
+		formatString: 0
+		lineageTag: 0955c8eb-b73a-4a33-8ff6-eb76a58cfec4
+
+	measure Forecast =
+			CALCULATE(SUMX(VALUES('Forecast Data Table'[Date]), [Average Daily Sales Switch]), FILTER(ALLSELECTED('Forecast Data Table'[Date]),
+			 'Forecast Data Table'[Date]<= MAX('Forecast Data Table'[Date])))
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: c8490e61-5a79-4722-832e-5177f270c6c6
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Forcast Marker' =
+			SWITCH(True(),
+			                MAX('Forecast Data Table'[Month Num] ) = 12, [Forecast],
+			                Blank())
+		lineageTag: 8c3ce6c4-1742-4e76-8858-dc1f87652c0f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Forecast Label' = "2023 FY Forcast: " & Format([Forecast], "$###,##0")
+		lineageTag: e66969fd-2089-4dab-97ef-55441cfe9ac5
+
+	column Column
+		formatString: 0
+		lineageTag: 681300bf-537a-4184-b9b3-94cc9edd9fa9
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _04_Forcast = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = f8fecb2e956141fe9075508853f82155
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

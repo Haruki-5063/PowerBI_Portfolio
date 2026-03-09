@@ -1,0 +1,50 @@
+table _02_Nested_Measure
+	lineageTag: f5f7ea7a-6720-4321-945b-e869df113889
+
+	measure 'Bar Chart Label (Product Category)' = FORMAT([Total Sales]/1000, "$###, ##0k") & " (" & FORMAT([% of Sales], "##.#%") & ")"
+		lineageTag: 25a0431f-3246-43b1-8202-8b6a534564df
+
+	measure '% of Sales' = DIVIDE([Total Sales], CALCULATE([Total Sales], ALLSELECTED(Product_Dim)))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 1f103d10-1960-4ce0-84cc-11a106307e9a
+
+	measure 'Max Avg Order Size (Hour)' = MAXX(ALLSELECTED(Kraken_Koffee_Facts[Hour]), [Average Order Size])
+		lineageTag: 630e1f5a-683b-4b71-8568-0ccba0d20a48
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Max AOS Marker' =
+			SWITCH(TRUE(),
+			                    [Average Order Size] = [Max Avg Order Size (Hour)], [Average Order Size],
+			                    BLANK())
+		lineageTag: 4864b4fb-4ac4-41f9-9ef9-a92b3bf63cde
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Product Category Rank' = CALCULATE(RANKX(All('Product_Dim'[product_type]), [Total Sales],, DESC, Dense), All('Product_Dim'[product_category]))
+		formatString: 0
+		lineageTag: ae661362-1852-4cfb-9746-ededf49384df
+
+	column Column1
+		dataType: string
+		isHidden
+		lineageTag: ed4855d2-7f08-4637-940a-ab22e002257b
+		summarizeBy: none
+		sourceColumn: Column1
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _02_Nested_Measure = m
+		mode: import
+		source =
+				let
+				    Source = _01_Core_Measure
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

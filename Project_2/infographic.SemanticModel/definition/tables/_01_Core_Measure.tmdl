@@ -1,0 +1,61 @@
+table _01_Core_Measure
+	lineageTag: b786658f-c095-46f9-ad49-72ee260ecbb6
+
+	measure 'Total Transactions' = DISTINCTCOUNT(Kraken_Koffee_Facts[transaction_id])
+		formatString: #,0
+		lineageTag: 1c10798f-655f-471e-85bf-0e7394cf88f0
+
+	measure 'Total Sales' = SUM( Kraken_Koffee_Facts[Total Sales])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: faceb625-5ea8-4305-8085-a84a21e72845
+
+	measure 'Average Order Size' = DIVIDE([Total Sales], [Total Transactions])
+		formatString: \$#,0.00;(\$#,0.00);\$#,0.00
+		lineageTag: 2e8e3e68-ce12-483e-9906-c02f8fb747fc
+
+	measure 'Total Stores' = DISTINCTCOUNT(Kraken_Koffee_Facts[store_id])
+		formatString: 0
+		lineageTag: 080052ee-8352-45e4-b714-cf436edb3689
+
+	measure 'Total Products' = COUNT(Product_Dim[product_id])
+		formatString: 0
+		lineageTag: 18bf6e20-597d-4242-a87d-3e8f2eaabdf0
+
+	measure 'Product Sales Rank' = RANKX(ALLSELECTED(Product_Dim),[Total Sales],,DESC,Dense)
+		formatString: 0
+		lineageTag: 2ffc6f0b-662e-4d29-b498-3596cee9cce8
+
+	measure 'Product Transaction Rank' = RANKX(ALLSELECTED(Product_Dim),[Total Transactions],,DESC,Dense)
+		formatString: 0
+		lineageTag: 4903f987-8d5d-42dd-b060-b0c6686ff477
+
+	measure 'Top Earner' = CALCULATE(MIN(Product_Dim[product_detail]), FILTER(ALL(Product_Dim), [Product Sales Rank] = 1))
+		lineageTag: c8b0e489-bcdc-4f87-82d3-13ccdc288cb2
+
+	measure 'The Most Popular Seller' = CALCULATE(MIN(Product_Dim[product_detail]), FILTER(ALL(Product_Dim), [Product Transaction Rank] = 1))
+		lineageTag: 9dc0662d-efef-4c13-a5eb-43d9084020cf
+
+	column Column1
+		dataType: string
+		isHidden
+		lineageTag: 3c49b1c6-4812-417d-a145-227774dad263
+		summarizeBy: none
+		sourceColumn: Column1
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _01_Core_Measure = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,29 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-AU
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Kraken_Koffee_Sales - Copy","Kraken_Koffee_Facts","Store_Dim","Product_Dim","Date","_01_Core_Measure","_02_Nested_Measure","_03_Formating_Tex_Measure (2)"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DateTableTemplate_8bc03fe1-f123-4afb-b2af-fdc3e33959e7
+ref table Kraken_Koffee_Facts
+ref table LocalDateTable_95b2723e-245b-439a-bc9f-b57718a5dc13
+ref table Store_Dim
+ref table Product_Dim
+ref table Date
+ref table LocalDateTable_fd4becab-691a-4674-9013-71d94d2af2c2
+ref table _01_Core_Measure
+ref table _02_Nested_Measure
+ref table '_03_Formating_Tex_Measure (2)'
+ref table _04_Forcast
+ref table 'Forecast Data Table'
+
+ref cultureInfo en-US
+

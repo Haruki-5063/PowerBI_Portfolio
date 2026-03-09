@@ -1,0 +1,45 @@
+table 'Forecast Data Table'
+	lineageTag: 9998dd8a-db79-467f-b49f-de1ac8713e4b
+
+	column Date
+		formatString: General Date
+		lineageTag: 341fec67-23fc-4db1-864a-e6a709ce2972
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Num' = MONTH('Forecast Data Table'[Date])
+		formatString: 0
+		lineageTag: 37415b88-af4e-4591-a65e-835f984082b0
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Month Short' =
+			SWITCH( true(),
+			                    'Forecast Data Table'[Month Num] = 1, "Jan",
+			                    'Forecast Data Table'[Month Num] = 2, "Feb",
+			                    'Forecast Data Table'[Month Num] = 3, "Mar",
+			                    'Forecast Data Table'[Month Num] = 4, "Apr",
+			                    'Forecast Data Table'[Month Num] = 5, "May",
+			                    'Forecast Data Table'[Month Num] = 6, "Jun",
+			                    'Forecast Data Table'[Month Num] = 7, "Jul",
+			                    'Forecast Data Table'[Month Num] = 8, "Aug",
+			                    'Forecast Data Table'[Month Num] = 9, "Sep",
+			                    'Forecast Data Table'[Month Num] = 10, "Oct",
+			                    'Forecast Data Table'[Month Num] = 11, "Nov",
+			                    'Forecast Data Table'[Month Num] = 12, "Dec")
+		lineageTag: c4f84f8b-2674-4f48-bd22-a2cfe6bbdbce
+		summarizeBy: none
+		sortByColumn: 'Month Num'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Forecast Data Table' = calculated
+		mode: import
+		source = CALENDAR(DATE(2023, 01, 01), DATE(2023, 12, 31))
+
+	annotation PBI_Id = 6bb982f543884511863ec27cad62e28b
+
